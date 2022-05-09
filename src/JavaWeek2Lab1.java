@@ -124,10 +124,38 @@ public class JavaWeek2Lab1 {
 		
 		//write a for loop that prints each number from 10 to 0 backwards
 		
+		for (int j = 9; j > 0; j--) {
+			System.out.println(j);
 		
-		//write aa loop that prints every other number from 0 to 100
+		}
+		//write a loop that prints every other number from 0 to 100
+		for (int k = 0; k <= 100; k += 2) {
+			System.out.println(k);
+			}
 		
 		//write a for loop that iterates from 0 to 100 and prints "EVEN" if the number is even and "ODD" if the number is odd.
+		for (int l =0; l <= 100; l++) {
+			if (l % 2 == 0) {
+				System.out.println(l + "= EVEN");
+			} else if (l %2 == 1) {
+				System.out.println(l + "= ODD");
+			}
+		}
+		
+		//write a while loop that starts at 100 and iterates backwards by 1 until it reaches 0
+		//divide each number by 3 and print the remainder to the console
+		
+		int m = 100;
+		while (m > 0) {
+			System.out.println(m + " " + m % 3);
+			m--;			
+			
+		}
+		
+		int i = 10;
+		do {
+			System.out.println(i);
+			i++;
+		}while (i ==0);
 	}
 }
-
